@@ -6,6 +6,11 @@
 	"url": "https://github.com/frazrepo/hassio-freebox",
 	"startup": "before",
 	"boot": "auto",
+        "arch": [
+         "aarch64",
+         "amd64",
+         "armv7"
+        ],	
 	"options": {
 		"pushbullet_token": "votre token pushbullet",
 		"code_telecommande": "votre code telecommande",
